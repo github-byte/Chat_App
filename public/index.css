@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.chat{
+    margin-top: 15px !important;
+    border-radius: 10px;
+    font-size: larger;
+    color:white;
+    min-height: 30px;
+    clear: both;
+    word-break: break-all;
+}
+.left{
+    width: 30%;
+    margin-top: 15px;
+    background-color: #30336b;
+    margin-left: 10px;
+    padding: 10px;
+}
+.right{
+    width: 30%;
+    margin-right: 10px;
+    padding: 10px;
+    float: right;
+    background:#be2edd; 
+    clear: both;
+    margin-bottom: 15px;
+}
+
+.join{
+    background: #6ab04c;
+    display: flex;
+    width: 50%;
+    margin-top: 15px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+}
+
+.leave{
+    background: #eb4d4b;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+
+}
+
+.chat-input input {
+    border: none;
+    height: 60%;
+    outline: none;
+    border: none;
+    width: 70%;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left:20px;
+    font-size: 1.5rem;
+}
+
+
+.chat-input {
+    background: #30336b;
+    height: 10%;
+    /* width: 30%; */
+}
+.chat-window {
+    height: 90%;
+    overflow: auto;
+}
+.left-view {
+    width: 20%;
+    height: 100%;
+    background: #c7ecee;
+    /* position: relative; */
+}
+.right-view {
+    height: 100%;
+    width: 80%;
+    background: #130f40;
+}
+.chat-container {
+    display: flex;
+    height: 100vh;
+}
+
+
+.head1{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.head {
+    margin-left: 30%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height:100px !important;
+    border: 5px solid black;
+    border-radius: 100% !important;
+    box-shadow: -2px 5px 14px 10px aliceblue;
+}
+.user{
+    padding:5%;
+    display: flex;
+    padding-left: 20%;
+    font-size: 1.5rem;
+
+}
+
+.profile{
+    height:60px;
+    border-radius: 100% !important;
+    
+    border-radius: 40%;
+    padding-right:10px;
+}
+
+
+.tex {
+    padding-top: 18px;
+}
+
+.line{
+
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+
+        <div class="left-view">
+            <div class="me">
+
+            </div>
+            <div class="online-list">
+              
+                <img class="profile head" src="https://cdn2.iconfinder.com/data/icons/avatar-profile/429/contact_account_user_default_avatar_female-512.png"></img>
+                <hr class="line">
+            </div>
+        </div>
+        <div class="right-view">
+            <div class="chat-window">
+            </div>
+            <div class="chat-input">
+                
+                <input type="text" name="" id="">
+            </div>
+
+        </div>
+    </div>
+
+
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js" integrity="sha512-iZIBSs+gDyTH0ZhUem9eQ1t4DcEn2B9lHxfRMeGQhyNdSUz+rb+5A3ummX6DQTOIs1XK0gOteOg/LPtSo9VJ+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script > const socket=io();
+        console.log(socket);
+        </script>
+        <script src="./script.js"></script>
+        <script src="./socket.js"></script>
+</body>
+</html>
