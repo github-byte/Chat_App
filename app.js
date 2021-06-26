@@ -43,8 +43,10 @@ socket.broadcast.emit("chat",chatObj);
 })
 
 
+let port=process.env.port||3000
 
-server.listen(5500,function(){
+
+server.listen(port,function(){
     console.log("Server started on 5500");
 })
 
